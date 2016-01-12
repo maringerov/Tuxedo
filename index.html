@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>studio | web developers</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <style>
+    @font-face {
+      font-family: 'geometria_lightlight';
+      src: url('fonts/Geometria-Light-webfont.eot');
+      src: url('fonts/Geometria-Light-webfont.eot?#iefix') format('embedded-opentype'),
+           url('fonts/Geometria-Light-webfont.woff2') format('woff2'),
+           url('fonts/Geometria-Light-webfont.woff') format('woff'),
+           url('fonts/Geometria-Light-webfont.ttf') format('truetype'),
+           url('fonts/Geometria-Light-webfont.svg#geometria_lightlight') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+    .main {
+      background: #FF512F; /* fallback for old browsers */
+      background: -webkit-linear-gradient(to left, #FF512F , #F09819); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #FF512F , #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      color: #FFF;
+      padding: 50px 0;
+    }
+    nav a {
+      text-decoration: none;
+    }
+    .nav-item {
+      margin: 20px 10px;
+    }
+    .logo {
+      position: relative;
+    }
+    .dots {
+      position: absolute;
+      background: #00ADEF;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+    }
+    #dot1 {
+      top: 10px;
+      left: 110px;
+    }
+    #dot2 {
+      top: 15px;
+      left: 115px;
+      animation-delay: 0.5s;
+    }
+    #dot3 {
+      top: 20px;
+      left: 120px;
+      animation-delay: 1s;
+    }
+    .welcome {
+      font-size: 2rem;
+    }
+    .welcome p {
+      margin-bottom: 0;
+    }
+    .leading {
+      font-size: 3rem;
+    }
+    .cursive {
+      font-family: 'Permanent Marker', cursive, sans-serif;
+      letter-spacing: 3px;
+    }
+    .project-card {
+      display: none;
+    }
+    .proposition {
+      padding-top: 50px;
+    }
+    .centered {
+      text-align: center;
+    }
+    @media (min-width: 550px) {
+      nav {
+        margin-top: 0;
+      }
+      #dot1 {
+        top: 10px;
+        left: 140px;
+      }
+      #dot2 {
+        top: 15px;
+        left: 145px;
+      }
+      #dot3 {
+        top: 20px;
+        left: 150px;
+      }
+      .project-card {
+        margin: 25px auto;
+        display: block;
+        height: 300px;
+        width: 70%px;
+        background: #FFF;
+        color: #3c3c3c;
+        -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
+      }
+      .project-card p {
+        margin-bottom: 0;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="#" class="logo u-pull-left">
+        <h1 style="margin-bottom: 0; color: #00ADEF">studio</h1>
+        <div class="dots animated fadeIn" id="dot1"></div>
+        <div class="dots animated fadeIn" id="dot2"></div>
+        <div class="dots animated fadeIn" id="dot3"></div>
+        <h6 style="margin-top: -10px;">by sekwoia</h6>
+      </a>
+      <a href="#" class="nav-item u-pull-right">Blog</a>
+      <a href="#" class="nav-item u-pull-right">Contact</a>
+    </div>
+  </nav>
+  <div class="u-cf"></div>
+  <div class="main">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns welcome centered">
+          <p class="leading cursive">Hello there!</p>
+          <p>Glad to meet you! Welcome to our piece of the internet! We are a collective of <strong class="cursive">passionate web developers</strong> with many talents. Within the ranks also hide a <strong class="cursive">cheeky marketer</strong>, a <strong class="cursive">mischivous data scientist</strong> and a <strong class="cursive">perfectionist designer</strong>. <strong class="cursive">Digital</strong> is our realm, where we feel at home. Oh, and we are <strong class="cursive">fun</strong> to work with!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <h2>Here's a taste of our work</h2>
+    <div class="row">
+      <div class="four columns">
+        <div class="project-card">
+          <img src="http://placehold.it/300x150" alt="" style="width: 100%">
+          <p>client:</p>
+          <img src="http://placehold.it/100x100" alt="" style="height: 50px;">
+          <p>
+            project:
+            <br>FOX International Channels
+          </p>
+          <a href="#" class=""></a>
+        </div>
+      </div>
+      <div class="four columns">
+        <div class="project-card">
+          <img src="http://placehold.it/300x150" alt="" style="width: 100%">
+          <p>client:</p>
+          <img src="http://placehold.it/100x100" alt="" style="height: 50px;">
+          <p>project:
+          <br>FOX International Channels</p>
+
+        </div>
+      </div>
+      <div class="four columns">
+        <div class="project-card centered">
+          <h3>Curious?</h3>
+          <p>There is more.</p>
+          <a href="#" class="button button-primary">See all!</a>
+        </div>
+      </div>
+    </div>
+    <h2>We do open-source</h2>
+    <div class="row">
+      <div class="four columns">
+        Powerful Point
+      </div>
+      <div class="four columns">
+        Code Loris
+      </div>
+      <div class="four columns">
+        React Frontend Starter
+      </div>
+    </div>
+  </div>
+</body>
+</html>
