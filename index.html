@@ -85,6 +85,9 @@
       text-align: center;
     }
     @media (min-width: 550px) {
+      h2 {
+        margin-top:40px;
+      }
       nav {
         margin-top: 0;
       }
@@ -101,10 +104,11 @@
         left: 150px;
       }
       .project-card {
+        position: relative;
         margin: 25px auto;
         display: block;
-        height: 300px;
-        width: 70%px;
+        height: 350px;
+        width: 100%;
         background: #FFF;
         color: #3c3c3c;
         -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
@@ -113,6 +117,33 @@
       }
       .project-card p {
         margin-bottom: 0;
+        margin-top: 20px;
+      }
+      .project-card img,
+      .project-card p {
+        padding: 0 10px;
+      }
+      .project-illustration {
+        background: #FF512F url(./images/barista_project.jpg) no-repeat center;
+        background-size: cover;
+        height: 150px;
+      }
+      .arrow-button {
+        position: absolute;
+        text-align: center;
+        font-size: 3rem;
+        top: 118px;
+        right: 20px;
+        text-decoration: none;
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        background: #00ADEF;
+        color: #FFF;
+        border-radius: 50%;
+      }
+      .last-card h3 {
+        padding-top: 50px;
       }
     }
   </style>
@@ -129,7 +160,7 @@
         <h6 style="margin-top: -10px;">by sekwoia</h6>
       </a>
       <a href="#" class="nav-item u-pull-right">Blog</a>
-      <a href="#" class="nav-item u-pull-right">Contact</a>
+      <a href="mailto:contact@sekwoia.com" class="nav-item u-pull-right">Contact</a>
     </div>
   </nav>
   <div class="u-cf"></div>
@@ -144,39 +175,41 @@
     </div>
   </div>
   <div class="container">
-    <h2>Here's a taste of our work</h2>
+    <h2 class="centered">Here's a taste of our work</h2>
     <div class="row">
       <div class="four columns">
         <div class="project-card">
-          <img src="http://placehold.it/300x150" alt="" style="width: 100%">
-          <p>client:</p>
-          <img src="http://placehold.it/100x100" alt="" style="height: 50px;">
+          <div class="project-illustration"></div>
+          <p><strong>client:</strong></p>
+          <img src="images/barista_coffee_sofia.svg" alt="Logo for Barista Coffee and More" height="50">
           <p>
-            project:
-            <br>FOX International Channels
+            <strong>project:</strong>
+            <br>Website for Barista Coffee and More
           </p>
-          <a href="#" class=""></a>
+          <a href="http://baristacoffeesofia.com" target="_blank" class="arrow-button">&#10148;</a>
         </div>
       </div>
       <div class="four columns">
         <div class="project-card">
-          <img src="http://placehold.it/300x150" alt="" style="width: 100%">
-          <p>client:</p>
-          <img src="http://placehold.it/100x100" alt="" style="height: 50px;">
-          <p>project:
-          <br>FOX International Channels</p>
-
+          <div class="project-illustration"></div>
+          <p><strong>client:</strong></p>
+          <img src="images/barista_coffee_sofia.svg" alt="Logo for Barista Coffee and More" height="50">
+          <p>
+            <strong>project:</strong>
+            <br>Website for Barista Coffee and More
+          </p>
+          <a href="http://baristacoffeesofia.com" target="_blank" class="arrow-button">&#10148;</a>
         </div>
       </div>
       <div class="four columns">
-        <div class="project-card centered">
-          <h3>Curious?</h3>
-          <p>There is more.</p>
-          <a href="#" class="button button-primary">See all!</a>
+        <div class="project-card last-card centered">
+          <h3>Want to see more?</h3>
+          <p>Contact us and we will send you a references to all our projects and experience.</p>
+          <a href="mailto:contact@sekwoia.com" class="button button-primary" style="margin-top: 20px;">Send me more!</a>
         </div>
       </div>
     </div>
-    <h2>We do open-source</h2>
+    <h2 class="centered">We do open-source</h2>
     <div class="row">
       <div class="four columns">
         Powerful Point
