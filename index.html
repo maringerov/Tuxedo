@@ -9,7 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 
@@ -55,12 +54,10 @@
     #dot2 {
       top: 15px;
       left: 115px;
-      animation-delay: 0.5s;
     }
     #dot3 {
       top: 20px;
       left: 120px;
-      animation-delay: 1s;
     }
     .welcome {
       font-size: 2rem;
@@ -159,9 +156,9 @@
     <div class="container">
       <a href="#" class="logo u-pull-left">
         <h1 style="margin-bottom: 0; color: #00ADEF">studio</h1>
-        <div class="dots animated fadeIn" id="dot1"></div>
-        <div class="dots animated fadeIn" id="dot2"></div>
-        <div class="dots animated fadeIn" id="dot3"></div>
+        <div class="dots" id="dot1"></div>
+        <div class="dots" id="dot2"></div>
+        <div class="dots" id="dot3"></div>
         <h6 style="margin-top: -10px;">by sekwoia</h6>
       </a>
       <a href="#" class="nav-item u-pull-right">Blog</a>
@@ -218,14 +215,19 @@
     <div class="row">
       <div class="four columns">
         Powerful Point
+        <div class="github-card" data-github="sekwoiacreative/powerfull-point-angular-app" data-width="" data-height="" data-theme="medium"></div>
+
       </div>
       <div class="four columns">
         Code Loris
+        <div class="github-card" data-github="codeloris/codeloris.github.io" data-width="" data-height="" data-theme="medium"></div>
       </div>
       <div class="four columns">
         React Frontend Starter
+        <div class="github-card" data-github="maringerov/React-Frontend-Starter-Kit" data-width="" data-height="" data-theme="medium"></div>
       </div>
     </div>
   </div>
+  <script src="https://cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 </body>
 </html>
