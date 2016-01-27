@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>studio | web developers</title>
+  <title> Tuxedo | Web </title>
   <meta name="description" content="">
   <meta name="author" content="">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +13,7 @@
   <link rel="icon" type="image/png" href="images/favicon.png">
 
   <style>
+    /* Fonts */
     @font-face {
       font-family: 'geometria_lightlight';
       src: url('fonts/Geometria-Light-webfont.eot');
@@ -24,216 +25,96 @@
       font-weight: normal;
       font-style: normal;
     }
-    .main {
-      background: #FF512F; /* fallback for old browsers */
-      background: -webkit-linear-gradient(to left, #FF512F , #F09819); /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to left, #FF512F , #F09819); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      color: #FFF;
-      padding: 50px 0;
-    }
-    h2 {
-      margin-top:40px;
-    }
-    nav a {
+
+    /* General */
+    a {
       text-decoration: none;
+      color: #000;
     }
-    .nav-item {
-      margin: 20px 10px;
+    a:hover {
+      color: #F09819;
     }
-    .logo {
-      position: relative;
+    ul li {
+      list-style-type: none;
+      color: #000;
     }
-    .dots {
-      position: absolute;
-      background: #00ADEF;
-      width: 5px;
-      height: 5px;
-      border-radius: 50%;
+
+    /* Custom */
+    .header {
+      border-bottom: 50px solid #000;
+      -webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+      box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
     }
-    #dot1 {
-      top: 10px;
-      left: 110px;
+    .tuxedo-logo {
+      margin: 10px 0;
     }
-    #dot2 {
-      top: 15px;
-      left: 115px;
-    }
-    #dot3 {
-      top: 20px;
-      left: 120px;
-    }
-    .welcome {
-      font-size: 2rem;
-    }
-    .welcome p {
-      margin-bottom: 0;
-    }
-    .leading {
-      font-size: 3rem;
-    }
-    .cursive {
-      font-family: 'Permanent Marker', cursive, sans-serif;
-      letter-spacing: 3px;
-    }
-    .project-card {
-      display: none;
-    }
-    .proposition {
+    .sidebar {
       padding-top: 50px;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 18px;
     }
-    .centered {
-      text-align: center;
+    .divider {
+      width: 50px;
+      min-height: 500px;
+      background-color: #000;
+      -webkit-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
+      box-shadow: 10px 10px 40px 0px rgba(0,0,0,0.75);
     }
-    footer {
-      padding: 0 0 10px;
-    }
-    footer a {
-      text-decoration: none;
-      color: #551A8B;
-    }
-    @media (min-width: 550px) {
-      #dot1 {
-        top: 10px;
-        left: 140px;
-      }
-      #dot2 {
-        top: 15px;
-        left: 145px;
-      }
-      #dot3 {
-        top: 20px;
-        left: 150px;
-      }
-      .project-card {
-        position: relative;
-        margin: 25px auto;
-        display: block;
-        height: 350px;
-        width: 100%;
-        background: #FFF;
-        color: #3c3c3c;
-        -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
-        -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
-        box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.25);
-      }
-      .project-card p {
-        margin-bottom: 0;
-        margin-top: 20px;
-      }
-      .project-card img,
-      .project-card p {
-        padding: 0 10px;
-      }
-      .project-illustration {
-        background-size: cover;
-        height: 150px;
-      }
-      .barista {
-        background: #FF512F url(./images/barista_project.jpg) no-repeat center;
-      }
-      .hanze {
-        background: #FF512F url(./images/hanze_project.jpg) no-repeat center;
-      }
-      .arrow-button {
-        position: absolute;
-        text-align: center;
-        font-size: 3rem;
-        top: 118px;
-        right: 20px;
-        text-decoration: none;
-        padding: 10px;
-        width: 50px;
-        height: 50px;
-        background: #00ADEF;
-        color: #FFF;
-        border-radius: 50%;
-      }
-      .last-card h3 {
-        padding-top: 50px;
-      }
+    .content {
+      padding: 50px 0 0 50px;
     }
   </style>
 
 </head>
+
 <body>
-  <nav>
-    <div class="container">
-      <a href="index.html" class="logo u-pull-left">
-        <h1 style="margin-bottom: 0; color: #00ADEF">studio</h1>
-        <div class="dots" id="dot1"></div>
-        <div class="dots" id="dot2"></div>
-        <div class="dots" id="dot3"></div>
-        <h6 style="margin-top: -10px;">by sekwoia</h6>
-      </a>
-      <a href="mailto:contact@sekwoia.com" class="nav-item u-pull-right">Contact</a>
-      <a href="http://blog.sekwoia.com" class="nav-item u-pull-right">Blog</a>
-      <a href="team.html" class="nav-item u-pull-right">Team</a>
-    </div>
-  </nav>
-  <div class="u-cf"></div>
-  <div class="main">
+  <div class="header">
     <div class="container">
       <div class="row">
-        <div class="twelve columns welcome centered">
-          <p class="leading cursive">Hello there!</p>
-          <p>Glad to meet you! Welcome to our piece of the internet! We are a collective of <strong class="cursive">passionate web developers</strong> with many talents. Within the ranks also hide a <strong class="cursive">cheeky marketer</strong>, a <strong class="cursive">mischivous data scientist</strong> and a <strong class="cursive">perfectionist designer</strong>. <strong class="cursive">Digital</strong> is our realm, where we feel at home. Oh, and we are <strong class="cursive">fun</strong> to work with!</p>
+        <div class="three columns">
+          <a href="#"><img class="tuxedo-logo" src="images/tuxedo_logo_dark.png" alt="Tuxedo logo" width="80" /></a>
+        </div>
+        <div class="nine columns">
+          <h1>Digital is our realm.</h1>
         </div>
       </div>
     </div>
   </div>
   <div class="container">
-    <h2 class="centered">Here's a taste of our work</h2>
     <div class="row">
-      <div class="four columns">
-        <div class="project-card">
-          <div class="project-illustration barista"></div>
-          <p><strong>client:</strong></p>
-          <img src="images/barista_coffee_sofia.svg" alt="Logo for Barista Coffee and More" height="50">
-          <p>
-            <strong>project:</strong>
-            <br>Website for Barista Coffee and More
-          </p>
-          <a href="http://baristacoffeesofia.com" target="_blank" class="arrow-button">&#10148;</a>
+      <div class="two columns">
+        <div class="sidebar">
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </div>
       </div>
-      <div class="four columns">
-        <div class="project-card">
-          <div class="project-illustration hanze"></div>
-          <p><strong>client:</strong></p>
-          <img src="images/hanze_logo.jpg" alt="Logo of Hanze University" width="150">
-          <p>
-            <strong>project:</strong>
-            <br>Facebook Tab for Hanze University
-          </p>
-          <a href="https://www.facebook.com/HanzeUAS/app/755993107754076/" target="_blank" class="arrow-button">&#10148;</a>
+      <div class="one column">
+        <div class="divider">
         </div>
       </div>
-      <div class="four columns">
-        <div class="project-card last-card centered">
-          <h3>Want to see more?</h3>
-          <p>Contact us and we will send you a references to all our projects and experience.</p>
-          <a href="mailto:contact@sekwoia.com" class="button button-primary" style="margin-top: 20px;">Send me more!</a>
+      <div class="nine columns">
+        <div class="content">
+          <div class="what">
+            <h1>What</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vero ad ab, quis dolor deleniti sapiente ipsa. Dolor officiis culpa, veritatis voluptate sed tenetur, alias ullam temporibus, quidem soluta necessitatibus.</p>
+          </div>
+          <div class="who">
+            <h1>Who</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vero ad ab, quis dolor deleniti sapiente ipsa. Dolor officiis culpa, veritatis voluptate sed tenetur, alias ullam temporibus, quidem soluta necessitatibus.</p>
+          </div>
+          <div class="how">
+            <h1>How</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vero ad ab, quis dolor deleniti sapiente ipsa. Dolor officiis culpa, veritatis voluptate sed tenetur, alias ullam temporibus, quidem soluta necessitatibus.</p>
+          </div>
         </div>
-      </div>
-    </div>
-    <h2 class="centered">We do open-source</h2>
-    <div class="row">
-      <div class="four columns">
-        <div class="github-card" data-github="sekwoiacreative/powerfull-point-angular-app" data-width="" data-height="350" data-theme="medium"></div>
-      </div>
-      <div class="four columns">
-        <div class="github-card" data-github="codeloris/codeloris.github.io" data-width="" data-height="350" data-theme="medium"></div>
-      </div>
-      <div class="four columns">
-        <div class="github-card" data-github="maringerov/React-Frontend-Starter-Kit" data-width="" data-height="" data-theme="medium"></div>
       </div>
     </div>
   </div>
-  <footer class="centered">
-    &there4;
-    <br>
-    <a href="https://en.wikipedia.org/wiki/Unus_pro_omnibus,_omnes_pro_uno" target="_blank">Un pour tous, tous pour un.</a>
-  </footer>
-  <script src="gh-cards/script.js"></script>
 </body>
+
 </html>

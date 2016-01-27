@@ -1,1 +1,1 @@
-This site is not yet live.
+Tuxedo website.
