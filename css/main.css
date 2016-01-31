@@ -20,20 +20,27 @@ body {
 h1 {
   margin: 0;
 }
+p {
+  font-size: 18px;
+}
 a {
   text-decoration: none;
   color: #2f3943;
 }
 a:hover {
   color: #fe9900;
+  transition: 0.15s;
 }
 ul li {
   list-style-type: none;
 }
 hr {
-  margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-top: 10px;
+  margin-bottom: 20px;
   border-top: 1px solid #fe9900;
+}
+.text-center {
+  text-align: center;
 }
 
 /* Custom */
@@ -47,14 +54,10 @@ hr {
   -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
   box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
 }
-.text-center {
-  text-align: center;
-}
 .footer {
-  background: #fe9900;
-  color: #ffffff;
+  color: #000;
   padding-top: 5px;
-  font-size: 1.2rem;
+  font-size: 14px;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -65,7 +68,7 @@ hr {
   margin-top: 8px;
 }
 .header-title {
-  font-size: 2rem;
+  font-size: 20px;
   display: block;
   margin: 30px 0;
 }
@@ -75,8 +78,7 @@ hr {
 .sidebar {
   padding-top: 50px;
   text-transform: uppercase;
-  font-weight: 900;
-  font-size: 1.5rem;
+  font-size: 18px;
 }
 .sidebar ul {
   position: fixed;
@@ -108,4 +110,9 @@ hr {
 .play {
   margin-left: 10px;
   cursor: pointer;
+  font-size: 18px;
+}
+.tuxedo-pronounce {
+  font-size: 18px;
+  letter-spacing: 1px;
 }
