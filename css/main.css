@@ -94,8 +94,11 @@ hr {
 .content {
   padding: 40px 0 0 50px;
 }
-.what {
-  font-size: 2rem;
+.what span {
+  font-size: 1rem;
+  padding: 1px 4px;
+  background: #bbbbbb;
+  border-radius: 2px;
 }
 .content img {
   width: 100%;
