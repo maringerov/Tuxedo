@@ -1,118 +1,56 @@
 /* http://www.color-hex.com/color-palette/14345 */
 
-/* Fonts */
-@font-face {
-  font-family: geometria_lightlight;
-  src: url('../fonts/Geometria-Light-webfont.eot');
-  src: url('../fonts/Geometria-Light-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/Geometria-Light-webfont.woff2') format('woff2'),
-       url('../fonts/Geometria-Light-webfont.woff') format('woff'),
-       url('../fonts/Geometria-Light-webfont.ttf') format('truetype'),
-       url('../fonts/Geometria-Light-webfont.svg#geometria_lightlight') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
-/* General */
-body {
-  color: #2f3943;
-}
-h1 {
-  margin: 0;
-}
-p {
-  font-size: 18px;
-}
-a {
-  text-decoration: none;
-  color: #2f3943;
-}
-a:hover {
-  color: #fe9900;
-  transition: 0.15s;
-}
-ul li {
-  list-style-type: none;
+html, body {
+  height: 100%;
 }
 hr {
-  margin-top: 10px;
-  margin-bottom: 20px;
   border-top: 1px solid #fe9900;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
-.text-center {
-  text-align: center;
+p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
-/* Custom */
-.header {
-  border-bottom: 10px solid #2f3943;
-  background-color: #fff;
-  z-index: 1;
-  position: fixed;
-  width: 100%;
-  -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-}
-.footer {
-  color: #000;
-  padding-top: 5px;
-  font-size: 14px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 25px;
-  width: 100%;
+
+.tuxedo {
+  background-color: #2f3943;
+  min-height: 100%;
+  font-family: "Lato", sans-serif;
+
 }
 .tuxedo-logo {
-  margin-top: 8px;
-}
-.header-title {
-  font-size: 20px;
-  display: block;
-  margin: 30px 0;
-}
-.main-section {
-  padding-top: 105px;
-}
-.sidebar {
   padding-top: 50px;
+}
+.tuxedo-logo-title {
+  color: #fff;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.tuxedo-content {
+  font-size: 38px;
+}
+.footer {
+  color: #fe9900;
+  padding: 25px 0;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
   text-transform: uppercase;
-  font-size: 18px;
 }
-.sidebar ul {
-  position: fixed;
-}
-.divider {
-  position: absolute;
-  z-index: 2;
-  width: 10px;
-  min-height: 150px;
-  background-color: #2f3943;
-  -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.5);
-}
-.content {
-  padding: 40px 0 0 50px;
-}
-.what span {
-  font-size: 1rem;
-  padding: 1px 4px;
-  background: #bbbbbb;
-  border-radius: 2px;
-}
-.content img {
-  width: 100%;
-  max-width: 180px;
-  margin: 0 10px;
-}
-.play {
-  margin-left: 10px;
-  cursor: pointer;
-  font-size: 18px;
-}
-.tuxedo-pronounce {
-  font-size: 18px;
-  letter-spacing: 1px;
+.footer a {
+  padding: 0 20px;
 }
