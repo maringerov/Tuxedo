@@ -55,3 +55,8 @@ a:hover {
 .footer a {
   padding: 0 20px;
 }
+@media (max-width: 35em) {
+  .tuxedo-content {
+    font-size: 2rem;
+  }
+}
