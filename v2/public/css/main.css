@@ -5,18 +5,28 @@ hr {
   border-color: #cacaca; }
 
 h1 {
-  font-size: 42px;
+  font-size: 44px;
   font-weight: 900; }
 
 p {
   font-size: 18px;
   font-weight: 200; }
 
+a {
+  color: inherit;
+  transition: 0.1s; }
+  a:hover, a:focus {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid #000;
+    padding-bottom: 3px; }
+
 .nav {
   padding-top: 30px; }
   .nav li {
-    margin-right: 20px;
-    font-size: 16px; }
+    margin-right: 30px;
+    font-size: 18px;
+    color: #ff3353; }
   .nav img {
     width: 70px;
     height: 70px; }
@@ -36,10 +46,20 @@ p {
   padding-top: 50px; }
 
 .carousel-feature-title {
-  color: #993c40; }
+  color: #ff3353; }
 
 .footer {
-  padding: 10px 0 30px; }
+  padding: 40px 0 60px;
+  color: gray;
+  font-size: 16px;
+  font-weight: 200; }
+  .footer a:hover, .footer a:focus {
+    color: #ff3353;
+    border-bottom: none; }
+  .footer a:hover .social-icons {
+    fill: #000; }
+  .footer .row:first-child {
+    padding-bottom: 30px; }
 
 .section-wrapper {
   padding: 50px 0; }
