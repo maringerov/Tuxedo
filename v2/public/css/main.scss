@@ -1,0 +1,52 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+hr {
+  border-color: #cacaca;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+p {
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.nav {
+  padding-top: 30px;
+  li {
+    margin-right: 20px;
+    font-size: 16px;
+  }
+  img {
+    width: 70px;
+    height: 70px;
+  }
+}
+.carousel-shape {
+  text-align: right;
+  img {
+    margin-top: -100px;
+    position: relative;;
+  }
+}
+.carousel-xl-icon {
+  img {
+    position: absolute;
+    top: 140px;
+    right: 290px;
+  }
+}
+.carousel-text {
+  padding-top: 50px;
+}
+.carousel-feature-title {
+  color: #993c40; // Brokkr red with opacity 0.8 matching the molecule color/opacity
+}
+.footer {
+  padding: 10px 0 30px;
+}
+.section-wrapper {
+  padding: 50px 0;
+}
