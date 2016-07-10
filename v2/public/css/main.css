@@ -67,15 +67,15 @@ a {
 .section-wrapper {
   padding: 50px 0; }
 
-.team-nav li {
+.about-nav li {
   color: #7e33f7; }
-.team-nav .active {
+.about-nav .active {
   color: #000;
   text-decoration: none;
   border-bottom: 2px solid #000;
   padding-bottom: 3px; }
 
-.team-footer a:hover {
+.about-footer a:hover {
   color: #7e33f7; }
 
 .portfolio-nav li {
