@@ -30,9 +30,6 @@ a {
     margin-right: 30px;
     font-size: 18px;
     color: #ff3353; }
-  .nav img {
-    width: 70px;
-    height: 70px; }
 
 .carousel-shape {
   text-align: right; }
@@ -96,5 +93,13 @@ a {
 
 .xp {
   color: #7e33f7; }
+
+.logo-history {
+  margin-top: 50px;
+  text-align: center; }
+  .logo-history div:first-child {
+    margin-bottom: 50px; }
+  .logo-history p {
+    color: gray; }
 
 /*# sourceMappingURL=main.css.map */
