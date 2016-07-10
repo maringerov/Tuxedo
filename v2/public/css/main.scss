@@ -43,10 +43,6 @@ a {
     font-size: 18px;
     color: $red;
   }
-  img {
-    width: 70px;
-    height: 70px;
-  }
 }
 .carousel-shape {
   text-align: right;
@@ -123,5 +119,15 @@ a {
     &:hover {
       color: $teal;
     }
+  }
+}
+.logo-history {
+  margin-top: 50px;
+  text-align: center;
+  div:first-child {
+    margin-bottom: 50px;
+  }
+  p {
+    color: $grey;
   }
 }
