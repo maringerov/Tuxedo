@@ -37,6 +37,7 @@ a {
 .carousel-shape {
   text-align: right; }
   .carousel-shape img {
+    width: 500px;
     margin-top: -100px;
     position: relative; }
 
@@ -88,5 +89,12 @@ a {
 
 .portfolio-footer a:hover {
   color: #0dcfdc; }
+
+.skills {
+  font-size: 18px;
+  font-weight: 700; }
+
+.xp {
+  color: #7e33f7; }
 
 /*# sourceMappingURL=main.css.map */
