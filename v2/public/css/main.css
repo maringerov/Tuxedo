@@ -102,11 +102,31 @@ a {
   .logo-history p {
     color: gray; }
 
+.media-left {
+  padding-right: 20px; }
+  .media-left .media-object {
+    border-radius: 50%; }
+
+.media-body h4 {
+  color: #7e33f7;
+  font-weight: 900; }
+.media-body .media-sub-heading {
+  color: #000; }
+.media-body p {
+  color: gray; }
+.media-body a {
+  border-bottom: none; }
+  .media-body a:hover .social-icons {
+    fill: #000; }
+
 @media screen and (max-width: 767px) {
   .footer a {
     margin: 30px 20px 0 0;
     display: inline-block; }
     .footer a:hover {
-      padding: 0; } }
+      padding: 0; }
+
+  .media:first-child {
+    margin-bottom: 60px; } }
 
 /*# sourceMappingURL=main.css.map */

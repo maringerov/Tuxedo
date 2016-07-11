@@ -139,6 +139,31 @@ a {
     color: $grey;
   }
 }
+.media-left {
+  padding-right: 20px;
+  .media-object {
+    border-radius: 50%;
+  }
+}
+.media-body {
+  h4 {
+    color: $purple;
+    font-weight: 900;
+  }
+  .media-sub-heading {
+    color: $black;
+  }
+  p {
+    color: $grey;
+  }
+  a {
+    &:hover .social-icons {
+      fill: $black;
+    }
+    border-bottom: none;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
   .footer {
@@ -149,5 +174,8 @@ a {
         padding: 0;
       }
     }
+  }
+  .media:first-child {
+    margin-bottom: 60px;
   }
 }
