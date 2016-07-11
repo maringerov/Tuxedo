@@ -119,6 +119,23 @@ a {
   .media-body a:hover .social-icons {
     fill: #000; }
 
+.portfolio-item-wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.3s ease-out; }
+  .portfolio-item-wrapper:hover {
+    background-color: #ff3353;
+    cursor: pointer;
+    transform: scale(1.03); }
+  .portfolio-item-wrapper .portfolio-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
 @media screen and (max-width: 767px) {
   .footer a {
     margin: 30px 20px 0 0;

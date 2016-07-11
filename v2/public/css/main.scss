@@ -163,7 +163,24 @@ a {
     border-bottom: none;
   }
 }
-
+.portfolio-item-wrapper {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.3s ease-out;
+  &:hover {
+    background-color: $red;
+    cursor: pointer;
+    transform: scale(1.03);
+  }
+  .portfolio-item {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
 
 @media screen and (max-width: 767px) {
   .footer {
