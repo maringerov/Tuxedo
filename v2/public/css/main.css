@@ -130,6 +130,8 @@ a {
     background-color: #ff3353;
     cursor: pointer;
     transform: scale(1.03); }
+  .portfolio-item-wrapper:hover svg {
+    fill: #fff; }
   .portfolio-item-wrapper .portfolio-item {
     position: absolute;
     top: 50%;
