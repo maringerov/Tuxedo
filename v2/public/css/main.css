@@ -31,22 +31,22 @@ a {
     font-size: 18px;
     color: #ff3353; }
 
-.carousel-shape {
+.hero-shape {
   text-align: right; }
-  .carousel-shape img {
+  .hero-shape img {
     width: 500px;
     margin-top: -100px;
     position: relative; }
 
-.carousel-xl-icon img {
+.hero-xl-icon img {
   position: absolute;
   top: 140px;
   right: 290px; }
 
-.carousel-text {
+.hero-text {
   padding-top: 50px; }
 
-.carousel-feature-title {
+.hero-feature-title {
   color: #ff3353; }
 
 .footer {

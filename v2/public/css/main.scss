@@ -44,7 +44,7 @@ a {
     color: $red;
   }
 }
-.carousel-shape {
+.hero-shape {
   text-align: right;
   img {
     width: 500px;
@@ -52,17 +52,17 @@ a {
     position: relative;
   }
 }
-.carousel-xl-icon {
+.hero-xl-icon {
   img {
     position: absolute;
     top: 140px;
     right: 290px;
   }
 }
-.carousel-text {
+.hero-text {
   padding-top: 50px;
 }
-.carousel-feature-title {
+.hero-feature-title {
   color: $red;
 }
 .footer {
