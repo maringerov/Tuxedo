@@ -139,3 +139,15 @@ a {
     color: $grey;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer {
+    a {
+      margin: 30px 20px 0 0;
+      display: inline-block;
+      &:hover {
+        padding: 0;
+      }
+    }
+  }
+}

@@ -102,4 +102,11 @@ a {
   .logo-history p {
     color: gray; }
 
+@media screen and (max-width: 767px) {
+  .footer a {
+    margin: 30px 20px 0 0;
+    display: inline-block; }
+    .footer a:hover {
+      padding: 0; } }
+
 /*# sourceMappingURL=main.css.map */
