@@ -131,6 +131,7 @@ a {
     cursor: pointer;
     transform: scale(1.03); }
   .portfolio-item-wrapper:hover svg {
+    transition: 0.3;
     fill: #fff; }
   .portfolio-item-wrapper .portfolio-item {
     position: absolute;

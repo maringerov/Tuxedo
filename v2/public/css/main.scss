@@ -176,6 +176,7 @@ a {
     transform: scale(1.03);
   }
   &:hover svg {
+    transition: 0.3;
     fill: #fff;
   }
   .portfolio-item {
