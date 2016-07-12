@@ -24,8 +24,8 @@ $(document).ready(function() {
     d = 10,
     e = .93,
     f = .32,
-    g = $(".carousel-shape img"),
-    h = $(".carousel-xl-icon img");
+    g = $(".hero-shape img"),
+    h = $(".hero-xl-icon img");
   var i = {
       width: 400,
       height: 600
