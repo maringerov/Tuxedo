@@ -43,8 +43,10 @@ a {
 
 .hero-xl-icon img {
   position: absolute;
-  top: 140px;
-  right: 290px; }
+  top: 100px;
+  right: 100px;
+  z-index: -1;
+  height: 200px; }
 
 .hero-text {
   padding-top: 50px; }
@@ -132,7 +134,6 @@ a {
   transition: 0.3s ease-out; }
   .portfolio-item-wrapper:hover {
     background-color: #ff3353;
-    cursor: pointer;
     transform: scale(1.03); }
   .portfolio-item-wrapper:hover svg {
     transition: 0.3;
@@ -142,6 +143,9 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.portfolio-item-text p {
+  color: gray; }
 
 @media screen and (max-width: 767px) {
   .footer a {

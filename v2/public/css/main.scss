@@ -58,8 +58,10 @@ a {
 .hero-xl-icon {
   img {
     position: absolute;
-    top: 140px;
-    right: 290px;
+    top: 100px;
+    right: 100px;
+    z-index: -1;
+    height: 200px;
   }
 }
 .hero-text {
@@ -176,7 +178,6 @@ a {
   transition: 0.3s ease-out;
   &:hover {
     background-color: $red;
-    cursor: pointer;
     transform: scale(1.03);
   }
   &:hover svg {
@@ -187,6 +188,11 @@ a {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
+  }
+}
+.portfolio-item-text {
+  p {
+    color: $grey;
   }
 }
 
