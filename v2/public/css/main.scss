@@ -126,13 +126,21 @@ a {
     }
   }
 }
-.skills {
+.color-ui {
   margin-top: 30px;
   font-size: 18px;
   font-weight: 700;
+  li span {
+    color: $purple;
+  }
 }
-.xp {
-  color: $purple;
+.color-ui-teal {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  li span {
+    color: $teal;
+  }
 }
 .logo-history {
   margin-top: 50px;

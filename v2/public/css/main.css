@@ -91,13 +91,19 @@ a {
 .portfolio-footer a:hover {
   color: #0dcfdc; }
 
-.skills {
+.color-ui {
   margin-top: 30px;
   font-size: 18px;
   font-weight: 700; }
+  .color-ui li span {
+    color: #7e33f7; }
 
-.xp {
-  color: #7e33f7; }
+.color-ui-teal {
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 700; }
+  .color-ui-teal li span {
+    color: #0dcfdc; }
 
 .logo-history {
   margin-top: 50px;
