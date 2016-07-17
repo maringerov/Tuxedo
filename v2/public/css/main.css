@@ -116,7 +116,8 @@ a {
 .media-left {
   padding-right: 20px; }
   .media-left .media-object {
-    border-radius: 50%; }
+    border-radius: 50%;
+    height: 100px; }
 
 .media-body h4 {
   color: #7e33f7;
