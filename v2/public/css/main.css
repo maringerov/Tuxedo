@@ -161,6 +161,13 @@ a {
       padding: 0; }
 
   .media:first-child {
-    margin-bottom: 60px; } }
+    margin-bottom: 60px; }
+
+  .media-left {
+    display: block;
+    margin-bottom: 20px; }
+
+  .portfolio-item-wrapper {
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=main.css.map */
