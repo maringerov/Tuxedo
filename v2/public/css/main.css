@@ -153,6 +153,9 @@ a {
 .portfolio-item-text p {
   color: gray; }
 
+.item-purple:hover {
+  background: #7e33f7; }
+
 @media screen and (max-width: 767px) {
   .footer a {
     margin: 30px 20px 0 0;
