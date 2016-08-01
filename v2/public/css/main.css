@@ -1,5 +1,6 @@
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5; }
 
 hr {
   border-color: #cacaca; }
@@ -13,7 +14,8 @@ h3 {
 
 p {
   font-size: 18px;
-  font-weight: 200; }
+  font-weight: 200;
+  color: #555; }
 
 a {
   color: inherit;
@@ -125,7 +127,7 @@ a {
 .media-body .media-sub-heading {
   color: #000; }
 .media-body p {
-  color: gray; }
+  color: #555; }
 .media-body a {
   border-bottom: none; }
   .media-body a:hover .social-icons {
@@ -151,7 +153,7 @@ a {
     transform: translate(-50%, -50%); }
 
 .portfolio-item-text p {
-  color: gray; }
+  color: #555; }
 
 .item-purple:hover {
   background: #7e33f7; }

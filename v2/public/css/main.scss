@@ -2,10 +2,12 @@ $red: #ff3353;
 $purple: #7e33f7;
 $teal: #0dcfdc;
 $grey: lighten(#000, 50%);
+$dark: #555;
 $black: #000;
 
 body {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 hr {
   border-color: #cacaca;
@@ -20,6 +22,7 @@ h3 {
 p {
   font-size: 18px;
   font-weight: 200;
+  color: $dark;
 }
 a {
   color: inherit;
@@ -168,7 +171,7 @@ a {
     color: $black;
   }
   p {
-    color: $grey;
+    color: $dark;
   }
   a {
     &:hover .social-icons {
@@ -200,7 +203,7 @@ a {
 }
 .portfolio-item-text {
   p {
-    color: $grey;
+    color: $dark;
   }
 }
 .item-purple {
