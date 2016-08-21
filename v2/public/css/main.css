@@ -9,9 +9,6 @@ h1 {
   font-size: 44px;
   font-weight: 900; }
 
-h3 {
-  font-weight: 900; }
-
 p {
   font-size: 18px;
   font-weight: 200;
@@ -157,6 +154,10 @@ a {
 
 .item-purple:hover {
   background: #7e33f7; }
+
+.portfolio-item-name-brokkr {
+  color: #ff3353;
+  font-weight: 900; }
 
 @media screen and (max-width: 767px) {
   .footer a {
