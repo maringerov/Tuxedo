@@ -1,3 +1,4 @@
+$orange: #ff6600;
 $red: #ff3353;
 $purple: #7e33f7;
 $teal: #0dcfdc;
@@ -16,7 +17,7 @@ h1 {
   font-size: 44px;
   font-weight: 900;
 }
-h3 {
+h2 {
   font-weight: 900;
 }
 p {
@@ -199,6 +200,11 @@ a {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
+  }
+}
+.wrapper-orange {
+  &:hover {
+    background-color: $orange;
   }
 }
 .portfolio-item-text {

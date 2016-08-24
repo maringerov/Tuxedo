@@ -9,7 +9,7 @@ h1 {
   font-size: 44px;
   font-weight: 900; }
 
-h3 {
+h2 {
   font-weight: 900; }
 
 p {
@@ -151,6 +151,9 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
+
+.wrapper-orange:hover {
+  background-color: #ff6600; }
 
 .portfolio-item-text p {
   color: #555; }
