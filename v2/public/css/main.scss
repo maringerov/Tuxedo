@@ -68,7 +68,7 @@ a {
   }
 }
 .hero-text {
-  padding-top: 50px;
+  padding: 100px 0;
 }
 .hero-feature-title {
   color: $red;
@@ -237,5 +237,8 @@ a {
   }
   .portfolio-item-wrapper {
     margin: 0 auto;
+  }
+  .hero-text {
+    padding: 50px 0;
   }
 }
