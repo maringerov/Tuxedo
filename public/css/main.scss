@@ -207,6 +207,11 @@ a {
     background-color: $orange;
   }
 }
+.wrapper-teal {
+  &:hover {
+    background-color: $teal;
+  }
+}
 .portfolio-item-text {
   p {
     color: $dark;

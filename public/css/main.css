@@ -155,6 +155,9 @@ a {
 .wrapper-orange:hover {
   background-color: #ff6600; }
 
+.wrapper-teal:hover {
+  background-color: #0dcfdc; }
+
 .portfolio-item-text p {
   color: #555; }
 
