@@ -212,6 +212,11 @@ a {
     background-color: $teal;
   }
 }
+.wrapper-purple {
+  &:hover {
+    background-color: $purple;
+  }
+}
 .portfolio-item-text {
   p {
     color: $dark;
